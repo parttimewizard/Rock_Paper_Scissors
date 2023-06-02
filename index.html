@@ -6,8 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+        <div class="game-container">
+            <Div id="buttons">
+                <div class="choiceBtn">
+                    <button id="Paper">Paper</button>
+                    <button id="Rock">Rock</button>
+                    <button id="Scissors">Scissor</button>
+                </div>
+                <button id="gameReset">Replay</button>
+            </Div>
+
+            <textarea placeholder="Game on!" id="game_result"></textarea>
+
+
+            <div class="score-disp">
+                <div class="Scrs">
+                    <div>Rounds</div>
+                    <div id="score"></div>
+                </div>
+                <div class="Scrs">
+                    <div>You</div>
+                    <div id="playerScore"></div>
+                </div>
+                <div class="Scrs">
+                    <div>Computer</div>
+                    <div id="computerScore"></div>
+                </div>
+            </div>
+
+        </div>
+
    
 </body>
 </html>
